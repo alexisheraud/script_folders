@@ -1,0 +1,23 @@
+##############################################################################
+##                                                                          ##
+##                     HOW TO RUN THE SCIPT                                 ##
+##                    ~~~~~~~~~~~~~~~~~~~~~~                                ##
+##                                                                          ##
+##      - First asssure you that you have set the script into your bashrc   ##
+##      if not I suggest you to read the "Install_in_bashrc.txt" file.      ##
+##                                                                          ##
+##   - ./script [DIRECTORY] [CLASSIC | CSFML]                               ##
+##                                                                          ##
+##   - [DIRECTORY] | Put the name of the directory you want the scipt       ##
+##      to run. You can also put '.' to specifie the folder your in.        ##
+##                                                                          ##
+##      - [CLASSIC] | Classic mod of makefile without the csfml.            ##
+##                                                                          ##
+##      -  [CSFML]  | CSFML mod with the csfml lib in it.                   ##
+##                                                                          ##
+##                                                                          ##
+##      - If you encounter a problem DO NOT hesite to contact me.           ##
+##                                                                          ##
+##                      [github.com/alexisheraud]                           ##
+##                                                                          ##
+##############################################################################
