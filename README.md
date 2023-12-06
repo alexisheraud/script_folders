@@ -1,2 +1,3 @@
 # script_folders
-Run the script to create a Makefile and a main.c
+
+In this folder you can find all my script i havce done so far.
