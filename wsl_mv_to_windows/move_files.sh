@@ -9,10 +9,17 @@ if [ $# -eq 0 ]; then
 fi
 
 for file in "$@"; do
-    if [ -f "$file" ]; then
-        echo "Déplacement de '$file' vers '$destination'"
-        mv "$file" "$destination"
+    if [ -e "$file" ]; then
+        if [ -f "$file" ]; then
+            echo "Déplacement du fichier '$file' vers '$destination'"
+            mv "$file" "$destination"
+        elif [ -d "$file" ]; then
+            echo "Déplacement du dossier '$file' vers '$destination'"
+            mv "$file" "$destination"
+        else
+            echo "'$file' n'est ni un fichier ni un dossier valide."
+        fi
     else
-        echo "'$file' n'est pas un fichier valide."
+        echo "'$file' n'existe pas."
     fi
 done
